@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+https://dl.circleci.com/status-badge/redirect/gh/KunalBhadra/Udacity_Project4/tree/main
 
 ## Project Overview
 
