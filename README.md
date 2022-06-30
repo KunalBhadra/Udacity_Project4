@@ -46,20 +46,17 @@ source .devops/bin/activate
 
 * Setup and Configure Docker locally
 
-    sudo yum update -y && yum install docker -y && docker --version
+    ![image](https://user-images.githubusercontent.com/104771272/176622792-0423bff7-41f7-4f13-9e3b-87c2537cdb34.png)
 
 * Setup and Configure Kubernetes locally
 
-    curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-    
-    sudo install minikube-linux-amd64 /usr/local/bin/minikube
+    ![image](https://user-images.githubusercontent.com/104771272/176622386-fb1a16ae-7d86-4f6b-b139-6100fd1289f9.png)
 
 * Create Flask app in Container Ensure to have a app.py and Dockerfile and run below command in same directory
 
-    docker build -t <name of image> .
-    docker run -d -p <localhostport>:<containerport> <nameofimage> #here name of the image is container
+    ![image](https://user-images.githubusercontent.com/104771272/176622955-9e7d92e5-d9d0-4ec7-aed3-54acaccc3adc.png)
 
 * Run via kubectl
 
-    kubectl run <TAG> --image=<dockerpath> --port=<port>
-    kubectl port-forward <name of pod>  --address 0.0.0.0 <localport>:<remoteport>
+    ![image](https://user-images.githubusercontent.com/104771272/176623077-68258263-74a0-4dfc-81a8-7d780342e002.png)
+
