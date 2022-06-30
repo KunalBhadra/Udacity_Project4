@@ -51,6 +51,7 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 
     curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+    
     sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
 * Create Flask app in Container Ensure to have a app.py and Dockerfile and run below command in same directory
